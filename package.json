@@ -1,0 +1,19 @@
+{
+  "name": "enye-backend-app",
+  "version": "1.0.0",
+  "description": "Currency rates API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Nkechi Udenkwor",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
